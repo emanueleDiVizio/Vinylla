@@ -7,7 +7,7 @@ class App extends Component {
     super();
     this.state = { files: [], answer: { results: [] }, yo: '?' };
     this.utils = {
-      baseUrl: 'http://localhost:3000'
+      baseUrl: 'https://agile-tundra-11540.herokuapp.com'
     };
   }
 
